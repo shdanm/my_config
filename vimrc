@@ -73,7 +73,7 @@ set iskeyword=@,a-z,A-Z,48-57,_,128-175,192-255
 call plug#begin()
 
 " color scheme
-Plug 'altercation/vim-colors-solarized'
+Plug 'morhetz/gruvbox'
 
 "строка статуса/состояния
 Plug 'vim-airline/vim-airline'                          
@@ -110,9 +110,7 @@ call plug#end()
 
 " color scheme
 set background=dark
-highlight ColorColumn ctermbg=darkGrey
-let g:solarized_termcolors=256
-colorscheme solarized
+colorscheme gruvbox
 
 
 " setting Emmett
