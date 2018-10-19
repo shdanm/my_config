@@ -1,8 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\Directory\shell\msys2_my]
-@="Msys"
-"Icon"="E:\\msys32\\msys2.exe"
-
-[HKEY_CLASSES_ROOT\Directory\shell\msys2_my\command]
-@="E:\\msys32\\msys2.exe bash"
